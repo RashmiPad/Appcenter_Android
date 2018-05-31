@@ -3,8 +3,8 @@ default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 project_type: xamarin
 app:
   envs:
-  - APP_CENTER_APP: "rashmi.padhi-01/Tasky" 
-  - APP_CENTER_TOKEN: "93611a324302f44c78dc8db20c7b0f67e6a2ca35"
+  - APP_CENTER_APP: "rashmipad/Tasky_Android" 
+  - APP_CENTER_TOKEN: "4f2a6ef04d856c91ce75e01adf03f5af032de65c"
   - BITRISE_STEP_ID: Appcenter_Android
   - BITRISE_STEP_VERSION: "1.0.0"
   - BITRISE_STEP_GIT_CLONE_URL: https://github.com/RashmiPad/Appcenter_Android
