@@ -3,11 +3,11 @@ default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 project_type: xamarin
 app:
   envs:
-  - APP_CENTER_APP: "xtc-Petco/Petco_QA_Android_Tests"
-  - APP_CENTER_TOKEN: "93424d4f2ed8ba4ba8492a7c7299366eee09a2a9"
-  - BITRISE_STEP_ID: app-center-launch-test-android
+  - APP_CENTER_APP: "rashmi.padhi-01/Tasky" 
+  - APP_CENTER_TOKEN: "93611a324302f44c78dc8db20c7b0f67e6a2ca35"
+  - BITRISE_STEP_ID: Appcenter_Android
   - BITRISE_STEP_VERSION: "1.0.0"
-  - BITRISE_STEP_GIT_CLONE_URL: https://github.com/rashmpad/Petco_AppCenter_Android_Smoke_StoreLocatore
+  - BITRISE_STEP_GIT_CLONE_URL: https://github.com/RashmiPad/Appcenter_Android
   - MY_STEPLIB_REPO_FORK_GIT_URL: $MY_STEPLIB_REPO_FORK_GIT_URL
 
 workflows:
