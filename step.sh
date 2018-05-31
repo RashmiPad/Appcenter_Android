@@ -28,7 +28,7 @@ fi
 
 echo " (i) Provided app path: ${app_path}"
 echo " (i) Provided app center app: ${app_center_app}"
-echo " (i) Provided app center token: 93424d4f2ed8ba4ba8492a7c7299366eee09a2a9"
+echo " (i) Provided app center token: 93611a324302f44c78dc8db20c7b0f67e6a2ca35"
 echo "${ANDROID_PROJECT_FOLDER}"
 
 
