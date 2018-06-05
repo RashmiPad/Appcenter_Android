@@ -31,9 +31,6 @@ echo " (i) Provided app center app: ${app_center_app}"
 echo " (i) Provided app center token: 4f2a6ef04d856c91ce75e01adf03f5af032de65c"
 echo "${ANDROID_PROJECT_FOLDER}"
 
-msbuild "TaskyAndroid/TaskyAndroid.csproj" /t:Clean /p:Configuration=Debug
-msbuild "TaskyAndroid/TaskyAndroid.csproj" /t:PackageForAndroid /p:Configuration=Debug
-
 ARTIFACTS_DIR="Artifacts"
 BUILD_DIR="Tasky.UITests/bin/Debug"
 MANIFEST_PATH="${ARTIFACTS_DIR}/manifest.json"
