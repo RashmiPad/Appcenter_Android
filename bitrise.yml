@@ -35,7 +35,7 @@ workflows:
         title: Step Test
         run_if: true
         inputs:
-        - app_path: $BITRISE_SIGNED_APK_PATH
+        - app_path: $BITRISE_APK_PATH
         - app_center_app: $APP_CENTER_APP
         - app_center_token: $APP_CENTER_TOKEN
 
