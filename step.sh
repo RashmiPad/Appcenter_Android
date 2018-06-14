@@ -32,10 +32,10 @@ echo " (i) Provided app center token: 4f2a6ef04d856c91ce75e01adf03f5af032de65c"
 echo "${ANDROID_PROJECT_FOLDER}"
 
 ARTIFACTS_DIR="Artifacts"
-BUILD_DIR="Tasky.UITests/bin/Debug"
+BUILD_DIR="Tasky.UITests/bin/Release"
 MANIFEST_PATH="${ARTIFACTS_DIR}/manifest.json"
 npm install appcenter-cli@1.0.8 -g
-msbuild "Tasky.UITests/Tasky.UITests.csproj" /p:Configuration=Debug
+msbuild "Tasky.UITests/Tasky.UITests.csproj" /p:Configuration=Release
 
 
 appcenter test prepare uitest --artifacts-dir "${ARTIFACTS_DIR}" --app-path "${app_path}" --build-dir "${BUILD_DIR}" --fixture "Tasky.UITests.Tests(Android)" --debug --quiet
