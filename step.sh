@@ -38,6 +38,6 @@ npm install appcenter-cli@1.0.8 -g
 msbuild "Tasky.UITests/Tasky.UITests.csproj" /p:Configuration=Release
 
 
-appcenter test prepare uitest --artifacts-dir "${ARTIFACTS_DIR}" --app-path "${app_path}" --build-dir "${BUILD_DIR}" --fixture "Tasky.UITests.Tests(Android)" --debug --quiet
+appcenter test prepare uitest --artifacts-dir "${ARTIFACTS_DIR}" --app-path "${app_path}" --build-dir "${BUILD_DIR}" --fixture "Tasky.UITests.Tests(Android)" --fixture "Tasky.UITests.VerifySave(Android)" --debug --quiet
 
 appcenter test run manifest --manifest-path "${MANIFEST_PATH}" --app "${app_center_app}" --devices 3d930114 --test-series "master" --locale "en_US" --debug --quiet --token "${app_center_token}"
